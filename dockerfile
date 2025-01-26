@@ -17,4 +17,4 @@ COPY . /app
 RUN python -m venv .venv
 RUN . .venv/bin/activate && uv sync --frozen --no-cache
 
-CMD ["/app/.venv/bin/uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["/app/.venv/bin/uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000","--reload"]
