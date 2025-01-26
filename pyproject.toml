@@ -1,7 +1,7 @@
 [project]
 name = "uv-with-fast"
 version = "0.1.0"
-description = "This is the fastapi boiler plate on docker using uv "
+description = "This is the fastapi boiler plate on docker using uv maintained by syed muhammad ali kazmi "
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
